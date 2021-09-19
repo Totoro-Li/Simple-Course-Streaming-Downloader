@@ -1,4 +1,5 @@
 # Simple-Course-Streaming-Downloader
+
 教学网下载录播视频，21年暑假教学网录播视频更新为HLS格式+AES-128加密，本repo提供一个较为简陋的下载方法，需要自己用chrome开发者工具获取cookie和m3u8链接（好在贵校教学网的m3u8没有加nest）
 其中main.py已更换为多线程下载，单线程下载的版本也予以保留，如果多线程出现漏包、顺序错误问题，则可采用Single-thread.py
 
@@ -10,9 +11,13 @@
 
 FAQ：
   Q1.下载完成后视频文件在哪？
-    A1.与main.py在同一目录下
+
+​    A1.与main.py在同一目录下
+
   Q2.怎么安装依赖（requirements.txt）
-    A2.命令行cd至main.py的目录，输入pip install -r requirements.txt
+
+​    A2.命令行cd至main.py的目录，输入pip install -r requirements.txt
+
   Q3.安装pycryptodome出现报错
-    A3.参照https://jingyan.baidu.com/article/95c9d20d7784ebec4f75616e.html
-  
+
+​    A3.参照https://jingyan.baidu.com/article/95c9d20d7784ebec4f75616e.html
