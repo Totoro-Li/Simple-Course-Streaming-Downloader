@@ -1,5 +1,7 @@
 # Simple-Course-Streaming-Downloader
 
+*教学网已经开放mp4下载直链，本repo提供的方法已经没有使用的必要！
+
 教学网下载录播视频，21年暑假教学网录播视频更新为HLS格式+AES-128加密，本repo提供一个较为简陋的下载方法，需要自己用chrome开发者工具获取cookie和m3u8链接（好在贵校教学网的m3u8没有加nest）
 其中main.py已更换为多线程下载，单线程下载的版本也予以保留，如果多线程出现漏包、顺序错误问题，则可采用Single-thread.py
 
