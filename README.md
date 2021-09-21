@@ -1,7 +1,7 @@
 # Simple-Course-Streaming-Downloader
 
 
-A simple python script dedicated to downloading encrypted HLS(HTTP live streaming). Developed to extract segment links from given m3u8 and download .ts files simultaneously, though currently it cannot handle nested m3u8. Multi-thread download enabled in main.py based on concurrent.futures. The script saves .ts files in /tmp folder located in the same directory as main.py. After the download thread pool is emptied, the /tmp folder will be  deleted and the downloaded mp4 media file will generate in the same directory.
+A simple python script dedicated to downloading encrypted HLS (HTTP live streaming). Developed to extract segment links from given m3u8 url and download .ts files simultaneously, though currently it cannot handle nested m3u8. Multi-thread download enabled in main.py based on concurrent.futures. The script saves .ts files in /tmp folder located in the same directory as main.py. After the download thread pool is emptied, the /tmp folder will be  deleted and the downloaded mp4 media file will generate in the same directory.
 
 This repo is still updating to support more file types and cooool features such as website scraping, or auto-synchronizing a local copy of your online course playbacks, anytime the program is running and connectivity is available.
 
